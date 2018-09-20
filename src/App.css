@@ -1,0 +1,31 @@
+/* 
+
+.appheader{
+  height: 8vh;
+  width: 100vw;
+  background-color: #ab2a19;
+  display: flex;
+  flex-direction: row;
+  padding-left: 125px
+
+}
+.headershelfie{
+  color: white;
+   padding-left: 10px;
+
+}
+
+.mainbox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around
+}
+.logo{
+  border: 1px black solid;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px
+}  */

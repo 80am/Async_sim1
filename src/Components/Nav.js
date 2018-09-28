@@ -2,13 +2,43 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 // import { withRouter } from 'react-router'
 // import { Connect } from 'react-redux'
-
 import './Nav.css'
 import Shelfielogo from '../Images/shelfielogo.png'
 
 
 class Nav extends Component {
+    constructor(props){
+        super(props)
+
+        this.shelfid=this.props.match.params.shelfId
+        
+    }
+
     render() {
+
+        let linksArray2 = ['A','B','C','D']
+    let links2 = linksArray2.map(letter => {
+      if (letter != null){
+        //if empty then .. 
+
+        // display +add inventory button
+        // link to 
+        // <Addtobin />
+
+        // else if full then.. 
+        // display bin and number
+      }
+     
+      return (
+        <React.Fragment key={letter}>
+          <Link to={`/shelf/${letter}`}>
+            <button className="buttons">Shelf {letter}</button>
+          </Link>
+          <hr/>
+        </React.Fragment>
+      )
+    })
+
         return (
 
             <div className="App">
@@ -24,21 +54,7 @@ class Nav extends Component {
                     <section>
                         <div className="abcdbuttons">
 
-                            <Link to={'/shelf/a'}>
-                                <button className="buttons">Shelf A</button>
-                            </Link>
-                            <hr />
-                            <Link to={'/shelf/b'}>
-                                <button className="buttons">Shelf B</button>
-                            </Link>
-                            <hr />
-                            <Link to={'/shelf/c'}>
-                                <button className="buttons">Shelf C</button>
-                            </Link>
-                            <hr />
-                            <Link to={'/shelf/d'}>
-                                <button className="buttons">Shelf D</button>
-                            </Link>
+                        {links2}
 
                         </div>
 

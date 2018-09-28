@@ -4,13 +4,15 @@ import React from 'react'
 import Nav from './Components/Nav'
 import shelf from './Components/shelf'
 import bin from './Components/bin'
+import addtobin from './Components/addtobin';
 
 
 export default(
     <Switch>
         <Route exact path= '/' component={Nav} />
-        <Route path= '/shelf/:id' component={bin} />
-         
+        <Route exact path= '/shelf/:shelfId' component={shelf} />
+        <Route exact path= '/shelf/:shelfId/bin/:binid' component={bin} />
+        <Route exact path= '/shelf/:shelfid/bin/:binid/addtobin' component={addtobin} />
     </Switch>
 
 )

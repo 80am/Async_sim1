@@ -1,0 +1,116 @@
+
+
+  .appheader3{
+    height: 8vh;
+    width: 100vw;
+    background-color: #ab2a19;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 27vw; */
+    justify-content: flex-start
+  }
+  .headershelfie3{
+    color: white;
+    /* border: 1px black solid; */
+    width: 20vw;
+    padding-left: 8px;
+    background-color: #d34735;
+    text-decoration: none;
+    text-emphasis: none;
+  }
+  
+  .mainbox3{
+    display: flex;
+    /* align-content: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px
+  }
+
+  .logo3{
+    /* border: 1px black solid; */
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px
+  }
+
+  .innerpart3{
+    color: black;
+    display: flex;
+    padding-left: 7px;
+    background: #ffb8af;
+    width: 100vw;
+    font-weight: bold;
+  }
+  /*_______________________*/
+  .mainbox3{
+    /* border: 1px black solid; */
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+  }
+
+  P{
+    font-size: 8px; 
+    padding-left: 14px;
+    font-weight: bold;
+}
+
+  .inputarea3{
+    /* border: 1px black solid; */
+      height: 100vh;
+      width: 62vw;
+      padding-top: 5px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .inputbox3{
+      height: 65px;
+      width: 500px;
+      border-radius: 7px;
+      border:  #ed6b5a 2px solid;
+      font-size: 35px
+  }
+
+  .picholderbox3{
+      /* border: 1px black solid; */
+      height: 100vh;
+      width: 28vw;
+      display: flex;
+
+  }
+
+  .editdeletecontainer3{
+      /* border: 1px black solid; */
+      display: flex;
+      justify-content: flex-start;
+      height: 100px;
+      /* padding-right: 85px */
+    }
+
+    .addinventorybut{
+        height: 66px;
+        width: 500px;
+        border-radius: 40px;
+        border-style: none;
+        font-size: 35px;
+        font-weight: bold;
+        background: #40f99b;
+    }
+
+    .shelfbutton{
+      background-color: transparent;
+    height: 60px;
+    width: 80px;
+    border-style: none;
+    color: white;
+    width: 30vw;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    margin: -7px;
+    padding-top: 6px;
+    }
